@@ -1,0 +1,8 @@
+.black{
+    color: #255625 !important;
+    border-radius:20px !important;
+    margin-left: 40% !important;
+}
+.black:hover{
+    color: white !important;
+}

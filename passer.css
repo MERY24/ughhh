@@ -1,0 +1,309 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif ;
+
+}
+
+
+
+li{
+	font-size: 1.5rem;
+}
+a{
+	color :#fff !important;
+	text-decoration: none !important;
+}
+a:hover {
+	color: teal !important;
+}
+
+h1{
+	font-size: 2.6rem;
+	margin-bottom: 5%;
+}
+h2{
+	font-size: 2rem;
+}
+
+
+
+
+.main{
+	min-height:100vh;
+	background: linear-gradient(rgba(0,0,0,0.4),transparent),url("./image/addSub.jpg");
+	background-size: cover;
+
+	color:#ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+
+}
+
+
+.button{
+	align-items: center;
+	width: 250px;
+	height: 50px;
+	color : #fff;
+	margin: 15px;
+	background: #8BBC06;
+	border-radius: 25px;
+	outline: none;
+	border:none;
+	font-size: 1rem;
+	transition-duration: .4s;
+	margin-top: 15%;
+	margin-bottom: 10%;
+}
+
+.button:hover{
+	background: #50C878;
+}
+
+
+.container img{
+	filter: brightness(0) invert(1);
+}
+
+
+
+
+
+.style1 {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.style2 {
+	color: #990000;
+	font-weight: bold;
+	font-size: 26px;
+	position: absolute;
+	top: 20%;
+
+
+	padding-right: 20%;
+
+}
+
+
+.revContain {
+	margin-top: 30%;
+}
+
+
+
+
+
+
+/* Customize the label (the container) */
+.container {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #eee;
+	border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+	background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+	background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+	display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+
+
+
+
+
+
+.style8 {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 24px;
+}
+.style7 {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 24px;
+}
+
+
+
+.tans{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	color: greenyellow;
+
+}
+
+.fans{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	color: red;
+
+}
+
+.tot{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: #FFF;
+
+}
+
+
+.rev{
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	color: whitesmoke;
+	margin-top: 10%;
+
+}
+.aff {
+
+	font-weight: bold;
+	font-size: 24px;
+
+
+}
+
+
+
+
+
+
+
+
+/*
+
+.style1 {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.style2 {
+	color: #990000;
+	font-weight: bold;
+}
+.style4 {
+	color: #000000;
+	font-weight: bold;
+}
+.style5 {color: #990033}
+.style6 {color: #ECE9D8}
+.style7 {
+	color: #993300;
+	font-weight: bold;
+}
+.style8 {
+	color: #6633CC;
+	font-weight: bold;
+}
+a:link {
+	color: #330066;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFCC00;
+	text-decoration: underline;
+}
+a:visited {
+	color: #330066;
+	text-decoration: none;
+}
+.head1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #FF0000;
+	text-align: center;
+	font-weight: bold;
+}
+.errors {
+
+	color: #FF0000;
+	font-weight: bold;
+}
+.tot {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #000000;
+}
+.tot {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+	
+}
+.tans {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color:#00CC66 ;
+}
+.fans {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color:#FF0000 ;
+}*/

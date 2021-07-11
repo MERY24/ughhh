@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif ;
+
+}
+
+
+
+
+
+.main{
+
+
+    display: flex;
+    justify-content: center;
+    width:100%;
+    height: 100vh;
+    background: linear-gradient(rgba(10, 140, 192, 0.247),transparent),url("../img/addSub.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* position: absolute; */
+}
+
+.ajouter{
+
+    margin:20%;
+    width:90%;
+    height:700px;
+    box-shadow:6px -5px 14px 1px rgba(27,27,27,0.72) ;
+    text-align:left;
+    border-radius: 30px 15px;
+    /* background-image: linear-gradient(to right top, #071428, #163a58, #1d658a, #1a94bc, #12c7eb); */
+    color: white;
+    background-color: rgba(3, 27, 63, 0.568);
+}
+
+#button{
+    border-radius: 25px;
+
+}
+
+
+
+
+a{
+    color :#fff !important;
+    text-decoration: none !important;
+}
+a:hover {
+    color: teal !important;
+}
+
+
+
+
+
+
+h1{
+    padding:30px ;
+
+}
+
+.head1 {
+    font-size: 28px;
+    color: white;
+
+}
